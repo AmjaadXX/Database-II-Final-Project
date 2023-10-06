@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Accont</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+     <link rel="stylesheet" href="{{ url_for('static', filename='error.css') }}">
+</head>
+
+<body>
+    <div class ="login" > 
+        <img src="{{ url_for('static', filename='icon.jpg') }}" class = "icon"> 
+
+        <h1>Create Account</h1>
+
+        <form action="{{ url_for('register') }}" method="post">
+            <p>Username</p>
+        <input type="text" name ="username" id="username" placeholder="Enter username"><br>
+
+        <p>Password</p>
+        <input type="password" name ="password" id="password" placeholder="Enter password"><br>
+        <label for="gender" class="dropdown" ><b>Gender</b> </label>
+        <select id="gender"  class="dropdown" name="gender" style="color:black">
+          <option value="male">male</option>
+          <option value="female">female</option>
+        </select>
+        <input type="submit" name ="register" id="register" value="register"><br>
+
+        <div class="msg">{{ msg }}</div><br>
+        <a href= "{{url_for('login')}}" > Already have account? Sign In  </a>
+        
+
+        </form>
+        
+    </div>
+    
+</body>
+</html>

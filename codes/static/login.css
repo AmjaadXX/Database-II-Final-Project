@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('loginp.jpg') ;
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+.login{
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    
+    
+}
+.restraunts{
+    width: 75%;
+    height: 75%;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    font-size: x-small;
+    overflow-y: auto;
+    overflow-x: auto;   
+    text-align: center; 
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    padding: 5px;
+    text-align: center; padding: 5px;
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    padding: 70px 30px;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.login input{
+    width: 96%;
+    margin-bottom: 20px;
+}
+
+.login input, select
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-style: 16px;
+
+}
+
+.login input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: darkblue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 16px ;
+    line-height: 20px;
+}
+
+.login a:hover{
+    color: #ffc107;
+    
+}
+
+.error{
+    background-color: rgb(255, 175, 175);
+    color: rgb(255, 0, 0);
+    padding: 4px;
+}
+
+.register{
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    padding: 53px 30px;
+    }
+
+.register p{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    
+    }
+
+    .register input{
+        width: 96%;
+        margin-bottom: 25px;
+    }
+    
+    .register input, select
+    {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 20px;
+        color: #fff;
+        font-style: 16px;
+    
+    }
+
+    .register select{
+        color: #000;
+    }
+
+    .register input[type="submit"]{
+        border: none;
+        outline: none;
+        height: 40px;
+        background: darkblue;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+       
+    }
+    
+    .register input[type="submit"]:hover{
+        cursor: pointer;
+        background: #ffc107;
+        color: #000;
+    }
+
+    .container{
+     width: 320px;
+    height: 420px;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+       
+    }
+
+    .container input[type="submit"]{
+        border: none;
+        outline: none;
+        height: 40px;
+        background: darkblue;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+       
+    }
+
+    .container p{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    
+    }
+
+    .container input{
+        width: 96%;
+        margin-bottom: 20px;
+    }
+    
+    .container input, select
+    {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 20px;
+        color: #fff;
+        font-style: 16px;
+    
+    }
+    
+    .container input[type="submit"]:hover{
+        cursor: pointer;
+        background: #ffc107;
+        color: #000;
+    }
+    .registerlabel{
+        color: white;
+        align:center;
+        top:60%;
+        bottom: 40%;
+    }
+    
